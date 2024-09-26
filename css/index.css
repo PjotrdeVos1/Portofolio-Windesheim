@@ -1,10 +1,11 @@
 body {
     /* background-image: url("https://static01.nyt.com/images/2021/01/24/opinion/24Wilkinson_print/22Wilkinson3-videoSixteenByNineJumbo1600.jpg"); */
-    background-color: black;
+    background-color: #1d1d20;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     color: white;
+    padding: 50px;
 }
 
 
@@ -13,3 +14,52 @@ body {
     float: right;
     padding: 5px;
 }
+
+.Name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.All-containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Ensures they align from the top */
+    margin: 20px;
+}
+
+
+.text-container {
+    border-left: 4px solid greenyellow;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+    width: 70%;
+}
+
+.Projects a {
+    position: relative;
+    text-decoration: none; /* Remove default underline */
+    font-family: Arial, sans-serif; /* Adjust font if needed */
+    color: #fff; /* Link text color */
+    display: inline-block;
+    margin-bottom: 15px; /* Space between links */
+    font-size: 1em; /* Adjust the size of the font */
+}
+
+.Projects a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Position the underline slightly below the text */
+    width: 50%; /* Adjust this to change the length of the underline */
+    height: 2px;
+    background: linear-gradient(90deg, #F2D14F, #A58BD0); /* Gradient color for the underline */
+    transition: width 0.3s ease; /* Animation for hover effect */
+}
+
+.Projects a:hover::after {
+    width: 100%; /* Full width underline on hover */
+}
+
+
