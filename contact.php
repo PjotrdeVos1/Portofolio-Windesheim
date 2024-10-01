@@ -20,7 +20,7 @@
     <div class="Socials">
 
         <h2>Projecten</h2>
-        <a href="#">Linkedin</a><br>
+        <a href="https://www.linkedin.com/in/pjotr-de-vos-b68917284/">Linkedin</a><br>
         <a href="#">Social 2</a><br>
         <a href="#">Social 3</a><br>
         <a href="#">Project 4</a><br>

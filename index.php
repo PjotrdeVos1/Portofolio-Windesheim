@@ -8,8 +8,8 @@
 <body>
 <nav class="NavBar">
     <a href="index.html">Home</a>
-    <a href="#">Over mij</a>
-    <a href="#">Contact</a>
+    <a href="aboutme.php">Over mij</a>
+    <a href="contact.php">Contact</a>
 </nav>
 
 <h1 class="Name">Pjotr de Vos</h1>
