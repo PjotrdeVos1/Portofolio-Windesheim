@@ -10,10 +10,13 @@ body {
 }
 
 
-.Links {
+
+
+
+.NavBar {
     display: flex;
-    float: right;
-    padding: 5px;
+    padding: 15px;
+    justify-content: space-between;
 }
 
 
@@ -39,6 +42,11 @@ body {
     margin-left: 10px;
     font-family: Arial, sans-serif;
     width: 70%;
+}
+
+
+.Projects {
+    margin-right: 60px;
 }
 
 .Projects a {
