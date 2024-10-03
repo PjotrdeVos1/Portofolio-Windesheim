@@ -12,6 +12,3 @@
     <a href="/info">Over Mij</a>
     <a href="/contact">Contact</a>
 </nav>
-
-
-</div>
