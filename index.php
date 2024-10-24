@@ -1,5 +1,12 @@
 <?php
 
+require 'dbconnect.php';
+require './controllers/homecontroller.php';
+require './Controllers/ContactController.php';
+require './Controllers/projectcontroller.php';
+require './Controllers/InfoController.php';
+
+
 
 $requestUri = isset($_SERVER['REQUEST_URI']) ? strtok($_SERVER['REQUEST_URI'], '?') : '/';
 
