@@ -2,9 +2,9 @@
 
 require 'dbconnect.php';
 require './controllers/homecontroller.php';
-require './Controllers/ContactController.php';
+require './Controllers/contactcontroller.php';
 require './Controllers/projectcontroller.php';
-require './Controllers/InfoController.php';
+require './Controllers/infocontroller.php';
 
 
 
@@ -26,6 +26,8 @@ switch ($requestUri) {
         break;
 
     case '/contact':
+        $contactController = new ContactController($conn);
+        $contactController->SubmitForm();
         require 'views/contact.view.php';
         break;
 

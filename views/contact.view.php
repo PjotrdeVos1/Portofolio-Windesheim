@@ -9,7 +9,7 @@ require 'layout/head.php';
     <h1>contact</h1>
     <main>
     <div class="contact-form-container">
-        <form class="contact-form" action="" method="POST">
+        <form class="contact-form" action="/contact" method="POST">
             <h2>Contact Me</h2>
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Naam" required>

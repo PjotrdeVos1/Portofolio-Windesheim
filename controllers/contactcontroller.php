@@ -1,7 +1,8 @@
 <?php
 
-require_once 'Portofolio/Models/ContactModel.php';
-require_once 'Portofolio/dbconnect.php';
+require_once __DIR__ . '/../Models/ContactModel.php';
+require_once __DIR__ . '/../dbconnect.php';
+
 
 class ContactController
 {
