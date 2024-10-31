@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Pjotr de Vos</title>
     <link rel="stylesheet" href="/views/css/style.css">
+    <script src="/views/js/Javscript.js" defer></script>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 <body>
