@@ -14,10 +14,10 @@
         function updateProjectPreview(projectId) {
             // You can replace this with actual project data
             const projectData = {
-                1: { description: 'Description for Project 1', image: '/pictures/image1.jpg' },
-                2: { description: 'Description for Project 2', image: 'path/to/image2.jpg' },
-                3: { description: 'Description for Project 3', image: 'path/to/image3.jpg' },
-                4: { description: 'Description for Project 4', image: 'path/to/image4.jpg' }
+                1: { description: 'Description for Project 1', image: '/views/pictures/image1.jpg' },
+                2: { description: 'Description for Project 2', image: '' },
+                3: { description: 'Description for Project 3', image: '' },
+                4: { description: 'Description for Project 4', image: '' }
             };
 
             const project = projectData[projectId] || { description: 'No description available.', image: '' };
@@ -28,6 +28,7 @@
                 projectImage.style.display = 'block';
             } else {
                 projectImage.style.display = 'none';
+                projectDescription.textContent = 'There is no preview for this project';
             }
         }
 });
