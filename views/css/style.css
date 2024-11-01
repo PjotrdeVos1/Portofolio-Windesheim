@@ -75,3 +75,90 @@ body {
 }
 
 
+
+/* Contact Form Container Styling */
+.contact-form-container {
+    display: flex;
+    flex-direction: column; /* Ensure items stack vertically */
+    align-items: center; /* Center-align the form */
+    justify-content: center;
+    width: 30%;
+    padding: 20px;
+    border: 2px solid greenyellow; /* Keep greenyellow border */
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect to lift the form */
+.contact-form-container:hover {
+    transform: translateY(-5px);
+}
+
+/* Styling for contact form elements */
+.contact-form {
+    width: 100%; /* Full width within container */
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-form label {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    resize: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-color: greenyellow;
+    outline: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #8dc63f; /* Slightly darker green for hover */
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .contact-form-container {
+        width: 80%; /* Expand to fit smaller screens */
+        margin: 0 auto;
+    }
+}
+
+
+

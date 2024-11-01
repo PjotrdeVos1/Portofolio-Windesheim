@@ -11,15 +11,23 @@
 });
 });
 
-    function updateProjectPreview(projectId) {
-    // You can replace this with actual project data
-    const projectData = {
-    1: 'Description for Project 1',
-    2: 'Description for Project 2',
-    3: 'Description for Project 3',
-    4: 'Description for Project 4'
-};
+        function updateProjectPreview(projectId) {
+            // You can replace this with actual project data
+            const projectData = {
+                1: { description: 'Description for Project 1', image: '/pictures/image1.jpg' },
+                2: { description: 'Description for Project 2', image: 'path/to/image2.jpg' },
+                3: { description: 'Description for Project 3', image: 'path/to/image3.jpg' },
+                4: { description: 'Description for Project 4', image: 'path/to/image4.jpg' }
+            };
 
-    projectDescription.textContent = projectData[projectId] || 'No description available.';
-}
+            const project = projectData[projectId] || { description: 'No description available.', image: '' };
+            projectDescription.textContent = project.description;
+            const projectImage = document.getElementById('project-image');
+            if (project.image) {
+                projectImage.src = project.image;
+                projectImage.style.display = 'block';
+            } else {
+                projectImage.style.display = 'none';
+            }
+        }
 });
