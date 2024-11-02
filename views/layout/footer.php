@@ -7,6 +7,10 @@
         <a class="icons" href="https://www.linkedin.com/in/pjotr-de-vos-b68917284/" target="_blank" rel="noopener noreferrer"><i class="devicon-linkedin-plain subtext"></i></a>
     </div>
 
+    <div class="OwnershipRights">
+        <p>&copy; <?php echo date("Y"); ?> Pjotr de Vos</p>
+    </div>
+
 
 </footer>
 

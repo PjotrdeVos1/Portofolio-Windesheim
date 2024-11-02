@@ -16,6 +16,7 @@ require 'layout/head.php';
     <div id="project-preview" class="ProjectPreview">
         <h3>Project Preview</h3>
         <p id="project-description">Select a project to see the details.</p>
+        <img id="project-image" src="" alt="Project Image" style="display:none;"/>
     </div>
 <?php
 

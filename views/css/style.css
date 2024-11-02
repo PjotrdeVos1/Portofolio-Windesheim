@@ -1,5 +1,4 @@
 body {
-    /* background-image: url("https://static01.nyt.com/images/2021/01/24/opinion/24Wilkinson_print/22Wilkinson3-videoSixteenByNineJumbo1600.jpg"); */
     background-color: #1d1d20;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -49,6 +48,9 @@ body {
     margin-right: 60px;
 }
 
+
+/* Styling for project links with help of ChatGPT*/
+
 .Projects a {
     position: relative;
     text-decoration: none; /* Remove default underline */
@@ -72,6 +74,117 @@ body {
 
 .Projects a:hover::after {
     width: 100%; /* Full width underline on hover */
+}
+
+
+
+/* Contact Form Container Styling */
+.contact-form-container {
+    display: flex;
+    flex-direction: column; /* Ensure items stack vertically */
+    align-items: center; /* Center-align the form */
+    justify-content: center;
+    width: 30%;
+    padding: 50px;
+    border: 2px solid greenyellow; /* Keep greenyellow border */
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect to lift the form */
+.contact-form-container:hover {
+    transform: translateY(-5px);
+}
+
+/* Styling for contact form elements with help from ChatGPT */
+.contact-form {
+    width: 100%; /* Full width within container */
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-form label {
+    margin-top: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    resize: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-color: greenyellow;
+    outline: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #8dc63f; /* Slightly darker green for hover */
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .contact-form-container {
+        width: 80%; /* Expand to fit smaller screens */
+        margin: 0 auto;
+    }
+}
+
+.NavBar {
+    background-color: #1d1d20;
+    overflow: hidden;
+}
+
+.NavBar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.NavBar a:hover {
+    background-color: #333;
+    color: white;
+}
+
+.NavBar a.active {
+    background-color: greenyellow;
+    color: black;
 }
 
 
