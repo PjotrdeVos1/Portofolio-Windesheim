@@ -48,6 +48,9 @@ body {
     margin-right: 60px;
 }
 
+
+/* Styling for project links with help of ChatGPT*/
+
 .Projects a {
     position: relative;
     text-decoration: none; /* Remove default underline */
@@ -95,7 +98,7 @@ body {
     transform: translateY(-5px);
 }
 
-/* Styling for contact form elements */
+/* Styling for contact form elements with help from ChatGPT */
 .contact-form {
     width: 100%; /* Full width within container */
 }

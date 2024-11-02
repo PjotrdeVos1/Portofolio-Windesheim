@@ -5,12 +5,13 @@ require 'layout/head.php';
 
 ?>
 
-
+<main
     <div class="All-containers">
         <div class="text-container">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc mi, tempor ut massa in, vulputate mollis purus. Suspendisse in suscipit purus. Phasellus iaculis sem in condimentum faucibus. Integer scelerisque, ligula quis pulvinar feugiat, ante mi ultrices ante, vel porttitor diam mauris sit amet sapien. Etiam luctus id urna nec malesuada. Quisque fringilla massa sit amet orci maximus, porta posuere dolor venenatis. Quisque varius, quam ac vestibulum eleifend, neque metus cursus arcu, sit amet mattis massa nisl sit amet massa. Duis non dui porta, egestas dui id, molestie arcu. Donec efficitur sagittis auctor. Fusce convallis tempor porttitor. </p>
+            <p>Zoals u zag op de begin pagina is mijn naam Pjotr de Vos. Ik zal hier nog een stukje over mijzelf praten. <br><br> Ik heb redelijk wat basis kennis met veel talen zoals; "HTML/CSS, JS, PHP, MYSQL, Databases. En een klein beetje van C#". En heb altijd een passie om meer kennis te krijgen van deze talen en nieuwe talen! <br><br> Zoals ook staat op de start pagina woon ik in Nederland maar sta ik altijd open om naar het buitenland te gaan om daar meer kennis te kunnen krijgen of werken voor mijn passie als software developer.</p>
         </div>
-
+    </div>
+</main>
 <?php
 
 require 'layout/footer.php';
