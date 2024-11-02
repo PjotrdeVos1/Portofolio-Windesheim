@@ -85,7 +85,7 @@ body {
     align-items: center; /* Center-align the form */
     justify-content: center;
     width: 30%;
-    padding: 20px;
+    padding: 50px;
     border: 2px solid greenyellow; /* Keep greenyellow border */
     border-radius: 10px;
     margin-right: 20px;
@@ -105,7 +105,7 @@ body {
 
 .contact-form h2 {
     font-size: 24px;
-    color: #333;
+    color: white;
     margin-bottom: 15px;
     text-align: center;
     font-weight: bold;
@@ -114,7 +114,7 @@ body {
 .contact-form label {
     margin-top: 15px;
     font-weight: 600;
-    color: #333;
+    color: white;
 }
 
 .contact-form input[type="text"],
@@ -162,5 +162,29 @@ body {
     }
 }
 
+.NavBar {
+    background-color: #1d1d20;
+    overflow: hidden;
+}
+
+.NavBar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.NavBar a:hover {
+    background-color: #333;
+    color: white;
+}
+
+.NavBar a.active {
+    background-color: greenyellow;
+    color: black;
+}
 
 

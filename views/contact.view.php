@@ -5,8 +5,6 @@ require 'layout/head.php';
 
 ?>
 
-
-    <h1>contact</h1>
     <main>
     <div class="contact-form-container">
         <form class="contact-form" action="/contact" method="POST">
