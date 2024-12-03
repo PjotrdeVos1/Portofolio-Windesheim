@@ -6,6 +6,8 @@ require './Controllers/contactcontroller.php';
 require './Controllers/projectcontroller.php';
 require './Controllers/infocontroller.php';
 
+phpinfo();
+
 
 
 $requestUri = isset($_SERVER['REQUEST_URI']) ? strtok($_SERVER['REQUEST_URI'], '?') : '/';
